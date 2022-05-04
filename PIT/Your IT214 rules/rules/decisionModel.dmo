@@ -23,6 +23,9 @@
                 <input bomType="gov.ny.its.pit.refdata.ReferenceData" collection="false" name="reference data"/>
                 <output bomType="IT2141" collection="false" name="Computed IT214"/>
                 <rule defaultRule="false" href="node_1/initialize%20decision.drl" kind="BusinessRule" name="initialize decision"/>
+                <rule defaultRule="false" href="node_1/NYS%20Resident.drl" kind="BusinessRule" name="NYS Resident"/>
+                <rule defaultRule="false" href="node_1/Household%20Gross%20Income.drl" kind="BusinessRule" name="Household Gross Income"/>
+                <rule defaultRule="false" href="node_1/RAM%23%20110342.drl" kind="BusinessRule" name="RAM# 110342"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Computed IT214" typeRef="IT2141"/>
