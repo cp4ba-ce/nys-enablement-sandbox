@@ -5,5 +5,5 @@
   <locale>en_US</locale>
   <definition><![CDATA[if IT201 is defined 
 then
-set the TEMP_FAGI of decision to 0;]]></definition>
+set the TEMP_FAGI of decision to 1;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
