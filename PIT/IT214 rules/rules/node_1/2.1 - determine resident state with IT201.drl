@@ -4,7 +4,7 @@
   <uuid>1d2130ea-1ec8-436d-b849-2f0110f21d33</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if
-	IT201 is not null
+	IT201 is not null and the value of the FEDAGI_RCOMP_AMT of IT201 is 12
 then 
 	set the value of the R_RSDT_IND of decision to Standard ( 1 );
     set the TEMP_FAGI of decision to the value of the FEDAGI_RCOMP_AMT of IT201 ;]]></definition>
