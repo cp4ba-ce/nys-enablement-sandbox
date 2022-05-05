@@ -26,6 +26,7 @@
                 <rule defaultRule="false" href="node_1/NYS%20Resident.drl" kind="BusinessRule" name="NYS Resident"/>
                 <rule defaultRule="false" href="node_1/Household%20Gross%20Income.drl" kind="BusinessRule" name="Household Gross Income"/>
                 <rule defaultRule="false" href="node_1/RAM%23%20110342.drl" kind="BusinessRule" name="RAM# 110342"/>
+                <rule defaultRule="false" href="node_1/RAM%20100022.drl" kind="BusinessRule" name="RAM 100022"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Computed IT214" typeRef="IT2141"/>
