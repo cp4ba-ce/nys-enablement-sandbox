@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Ram 110159</name>
+  <uuid>19958ee5-25fb-47a9-90a9-9db338a964b1</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the TEMP_CR_DENIED_IND is not Present then
+	set the TEMP_LINE30 of decision to 
+    max(0 , the value of the R_RL_PROP_TX_AMT of decision 
+    - the TEMP_LINE18 of decision );]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
