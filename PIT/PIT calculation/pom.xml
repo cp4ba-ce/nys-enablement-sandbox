@@ -43,11 +43,6 @@
         </dependency>
         <dependency>
             <groupId>_7d0970897.nys_oits___decision_model.pit</groupId>
-            <artifactId>IT214Rules</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>_7d0970897.nys_oits___decision_model.pit</groupId>
             <artifactId>IT229Rules</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>

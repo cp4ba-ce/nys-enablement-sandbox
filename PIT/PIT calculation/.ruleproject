@@ -9,7 +9,6 @@
   </paths>
   <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.nys_oits.pit:forms#LATEST-SNAPSHOT" packageId="cp4admin.nys_oits.pit:forms" version="LATEST-SNAPSHOT"/>
-    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="_7d0970897.nys_oits___decision_model.pit:IT214Rules#LATEST-SNAPSHOT" packageId="_7d0970897.nys_oits___decision_model.pit:IT214Rules" version="LATEST-SNAPSHOT"/>
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="_7d0970897.nys_oits___decision_model.pit:IT229Rules#LATEST-SNAPSHOT" packageId="_7d0970897.nys_oits___decision_model.pit:IT229Rules" version="LATEST-SNAPSHOT"/>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">

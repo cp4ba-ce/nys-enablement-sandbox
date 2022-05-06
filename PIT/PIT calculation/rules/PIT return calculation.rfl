@@ -26,18 +26,6 @@ set the exceptions of 'PIT return' to exceptions ;
 set 'reference data' to a new reference data ;
 ]]></Actions>
             </ActionTask>
-            <FunctionTask Identifier="task_5">
-                <Invocation FunctionIdentifier="_7d0970897.nys_oits___decision_model.pit.it214rules.IT214_rules">
-                    <InputBindings>
-                        <Binding Language="bal" Name="inputForm"><![CDATA[IT214]]></Binding>
-                        <Binding Language="bal" Name="IT201"><![CDATA[IT201]]></Binding>
-                        <Binding Language="bal" Name="referenceData"><![CDATA['reference data']]></Binding>
-                    </InputBindings>
-                    <OutputBindings>
-                        <Binding Language="bal" Name="IT214"><![CDATA['IT214 rules' ]]></Binding>
-                    </OutputBindings>
-                </Invocation>
-            </FunctionTask>
             <FunctionTask Identifier="task_6">
                 <Invocation FunctionIdentifier="_7d0970897.nys_oits___decision_model.pit.it229rules.IT229_rules">
                     <InputBindings>
@@ -53,19 +41,12 @@ set 'reference data' to a new reference data ;
             <TaskNode Identifier="node_0" Task="task_0"/>
             <TaskNode Identifier="node_2" Task="task_2"/>
             <TaskNode Identifier="node_4" Task="task_4"/>
-            <TaskNode Identifier="node_5" Task="task_5"/>
             <TaskNode Identifier="node_6" Task="task_6"/>
-            <ForkNode Identifier="node_7"/>
-            <JoinNode Identifier="node_8"/>
         </NodeList>
         <TransitionList>
             <Transition Identifier="transition_4" Source="node_0" Target="node_4"/>
-            <Transition Identifier="transition_5" Source="node_4" Target="node_7"/>
-            <Transition Identifier="transition_6" Source="node_7" Target="node_5"/>
-            <Transition Identifier="transition_7" Source="node_7" Target="node_6"/>
-            <Transition Identifier="transition_9" Source="node_5" Target="node_8"/>
-            <Transition Identifier="transition_10" Source="node_6" Target="node_8"/>
-            <Transition Identifier="transition_8" Source="node_8" Target="node_2"/>
+            <Transition Identifier="transition_3" Source="node_4" Target="node_6"/>
+            <Transition Identifier="transition_5" Source="node_6" Target="node_2"/>
         </TransitionList>
     </Body>
     <Resources>
@@ -73,15 +54,9 @@ set 'reference data' to a new reference data ;
             <Data Name="node_6#name"><![CDATA[run IT229 computations]]></Data>
             <Data Name="node_0#name"><![CDATA[Start node]]></Data>
             <Data Name="node_4#label"><![CDATA[initialize]]></Data>
-            <Data Name="node_7#label"><![CDATA[Fork node 1]]></Data>
-            <Data Name="node_5#name"><![CDATA[run IT214 computations]]></Data>
             <Data Name="node_2#name"><![CDATA[End node]]></Data>
-            <Data Name="node_5#label"><![CDATA[run IT214 computations]]></Data>
-            <Data Name="node_8#label"><![CDATA[Join node 1]]></Data>
             <Data Name="node_4#name"><![CDATA[initialize]]></Data>
             <Data Name="node_6#label"><![CDATA[run IT229 computations]]></Data>
-            <Data Name="node_8#name"><![CDATA[Join node 1]]></Data>
-            <Data Name="node_7#name"><![CDATA[Fork node 1]]></Data>
         </ResourceSet>
     </Resources>
 </Ruleflow></rfModel>
