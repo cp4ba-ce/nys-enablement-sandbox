@@ -1,0 +1,21 @@
+{
+  "inputForm": {
+    "QRPT_ROWs": [
+      {
+        "ALLOC_PCT": 1,
+        "PI_PD_RES_AMT": 100,
+        "RP_TX_PD_AMT": 200,
+        "STAR_CR_SCH_TX_AMT": 50
+      },
+      {
+        "ALLOC_PCT": 3,
+        "PI_PD_RES_AMT": 65,
+        "RP_TX_PD_AMT": 50,
+        "STAR_CR_SCH_TX_AMT": 120
+      }
+    ],
+    "RPTR_QRPT_PD_AMT": {
+      "claimed": 1
+    }
+  }
+}
