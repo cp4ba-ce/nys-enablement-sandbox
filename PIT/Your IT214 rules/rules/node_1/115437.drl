@@ -5,7 +5,8 @@
   <locale>en_US</locale>
   <definition><![CDATA[if the value of the R_GRSS_INC_R_AMT of decision > 18000 then
 	set the value of the R_RL_PROP_CR_AMT of decision to 0 ;
-    add A099 to the codes of the R_RL_PROP_CR_AMT of decision; 
+    add A099 to the codes of the R_RL_PROP_CR_AMT of decision;
+    add A098 to the codes of the R_RL_PROP_CR_AMT of decision ;
     set the TEMP_ARC of decision to A099 ; 
     set the IT214_COUNTER of the globals of decision 
     to the IT214_COUNTER of the globals of decision  + 1;
