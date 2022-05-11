@@ -6,6 +6,7 @@
   <definition><![CDATA[if
     the value of the RPTR_QRPT_PD_AMT of decision is more than 0
 then
+	print "accumulate" ;
 	set the value of the RPTR_QRPT_PD_AMT of decision to 0 ;
 	for each QRPT Row in the QRPT_ROWs of decision : 
         - set the value of the RPTR_QRPT_PD_AMT of decision to 
