@@ -22,6 +22,7 @@
                 <output bomType="IT229" collection="false" name="Computed IT229"/>
                 <rule defaultRule="false" href="node_1/initialize%20decision.drl" kind="BusinessRule" name="initialize decision"/>
                 <rule defaultRule="false" href="node_1/1%20-%20accumulate%20schedule%20B%20table.drl" kind="BusinessRule" name="1 - accumulate schedule B table"/>
+                <rule defaultRule="false" href="node_1/new%20rule.drl" kind="BusinessRule" name="new rule"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Computed IT229" typeRef="IT229"/>
