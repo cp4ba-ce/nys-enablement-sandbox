@@ -1,1 +1,8 @@
-{}
+{
+  "inputForm": {
+    "QRPT_ROWs": [],
+    "RPTR_QRPT_PD_AMT": {
+      "claimed": 200
+    }
+  }
+}

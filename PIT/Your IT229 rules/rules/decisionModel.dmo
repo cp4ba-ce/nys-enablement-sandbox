@@ -22,6 +22,7 @@
                 <output bomType="IT229" collection="false" name="Compute IT229"/>
                 <rule defaultRule="false" href="node_1/initialize%20decision.drl" kind="BusinessRule" name="initialize decision"/>
                 <rule defaultRule="false" href="node_1/229%20Accumulate%20Rule.drl" kind="BusinessRule" name="229 Accumulate Rule"/>
+                <rule defaultRule="false" href="node_1/RAM%20114455.drl" kind="BusinessRule" name="RAM 114455"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Compute IT229" typeRef="IT229"/>
