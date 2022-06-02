@@ -167,7 +167,7 @@ public class IT$214
                 property "com.fasterxml.jackson.annotation.JsonProperty" "FEDAGI_RCOMP_AMT"
                 property update "true";
     public SwitchIndicatorValue TEMP_CR_DENIED_IND
-                property "ads.attributeId" "5"
+                property "ads.attributeId" "16"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "TEMP_CR_DENIED_IND"
                 property update "true";
     public double TEMP_FAGI
