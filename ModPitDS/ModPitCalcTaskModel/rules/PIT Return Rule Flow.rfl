@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>PIT Return Rule Flow</name>
+  <uuid>9c0cbb3d-1752-4117-910c-5597cef096b3</uuid>
+  <locale>en_US</locale>
+  <rfModel><Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+    <Body>
+        <TaskList>
+            <StartTask Identifier="task_0"/>
+            <ActionTask Identifier="task_3">
+                <Actions Language="bal"><![CDATA[set IT201 to the IT201 of 'PIT return' ;
+
+set IT214 to the IT214 of 'PIT return' ;
+set IT229 to the IT229 of 'PIT return' ;
+
+set globals to a new Globals ;
+set the globals of IT214 to globals ;
+
+set exceptions to an empty list of Exceptions ;
+set the exceptions of 'PIT return' to exceptions ;
+
+
+]]></Actions>
+            </ActionTask>
+            <FunctionTask Identifier="task_4">
+                <Invocation FunctionIdentifier="user6.nys_enablement_sandbox.modpitds.it214rules.IT214_Rules">
+                    <InputBindings>
+                        <Binding Language="bal" Name="inputForm"><![CDATA[IT214]]></Binding>
+                        <Binding Language="bal" Name="IT201"><![CDATA[IT201]]></Binding>
+                    </InputBindings>
+                    <OutputBindings>
+                        <Binding Language="bal" Name="IT214"><![CDATA['IT214 rules']]></Binding>
+                    </OutputBindings>
+                </Invocation>
+            </FunctionTask>
+            <StopTask Identifier="task_5"/>
+        </TaskList>
+        <NodeList>
+            <TaskNode Identifier="node_0" Task="task_0"/>
+            <TaskNode Identifier="node_3" Task="task_3"/>
+            <TaskNode Identifier="node_4" Task="task_4"/>
+            <TaskNode Identifier="node_5" Task="task_5"/>
+        </NodeList>
+        <TransitionList>
+            <Transition Identifier="transition_3" Source="node_0" Target="node_3"/>
+            <Transition Identifier="transition_4" Source="node_3" Target="node_4"/>
+            <Transition Identifier="transition_5" Source="node_4" Target="node_5"/>
+        </TransitionList>
+    </Body>
+    <Resources>
+        <ResourceSet Locale="en_US">
+            <Data Name="node_3#label"><![CDATA[initialize]]></Data>
+            <Data Name="node_0#name"><![CDATA[Start node]]></Data>
+            <Data Name="node_4#label"><![CDATA[run IT214 computations]]></Data>
+            <Data Name="node_5#name"><![CDATA[End node 2]]></Data>
+            <Data Name="node_5#label"><![CDATA[End node 2]]></Data>
+            <Data Name="node_4#name"><![CDATA[run IT214 computations]]></Data>
+            <Data Name="node_3#name"><![CDATA[initialize]]></Data>
+        </ResourceSet>
+    </Resources>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

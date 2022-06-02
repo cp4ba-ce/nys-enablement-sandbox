@@ -217,6 +217,7 @@ IndicatorType15Field.value#phrase.subtraction_setter = subtract {value} from the
 
 # IndicatorType15Value
 IndicatorType15Value#concept.label = Indicator Type 15 Value
+IndicatorType15Value.$#instance.documentation = 
 IndicatorType15Value.$#instance.label = Single (1)
 IndicatorType15Value.$1#instance.label = Married Filing Joint Return (2)
 IndicatorType15Value.$2#instance.label = Married Filing Separate Return (3)

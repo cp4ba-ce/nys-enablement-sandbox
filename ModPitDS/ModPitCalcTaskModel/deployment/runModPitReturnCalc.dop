@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="ModPitTaskModel" usingRuleflow="true" ruleflowName="PIT Return Rule Flow" targetRuleProjectName="ModPitCalcTaskModel">
+  <name>runModPitReturnCalc</name>
+  <uuid>ed967890-0a75-4ec2-b7e7-092eea9bb620</uuid>
+  <description><![CDATA[Modernized PIT return Function]]></description>
+  <referencedVariables variableName="PITReturn" variableSetName="PIT return parameters" direction="IN_OUT">
+    <variableSet href="../rules/PIT%20return%20parameters.var#f4eb6f59-0d23-47df-9340-ea62d1fabdda"/>
+  </referencedVariables>
+  <ruleflow href="../rules/PIT%20Return%20Rule%20Flow.rfl#9c0cbb3d-1752-4117-910c-5597cef096b3"/>
+  <targetRuleProject href="../../ModPitCalcTaskModel#de187804-18f0-49f0-a924-a14d2bb29c68"/>
+  <tags key="operationDescription">
+    <value><![CDATA["Modernized PIT  Decision Operation"]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["modPitReturnCalculations"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,256 @@
+
+# AdjustedReasonCodeId
+AdjustedReasonCodeId#concept.label = Adjusted Reason Code Id
+AdjustedReasonCodeId.a003#instance.label = A003
+AdjustedReasonCodeId.a027#instance.label = A027
+AdjustedReasonCodeId.a047#instance.label = A047
+AdjustedReasonCodeId.a098#instance.label = A098
+
+# AmountField
+AmountField#concept.label = Amount Field
+AmountField.AmountField(double,AdjustedReasonCodeId,double)#phrase.navigation = a new {Amount Field} where {0, claimed} {1, code} {2, computed}
+AmountField.claimed#phrase.action = set the claimed of {this} to {claimed}
+AmountField.claimed#phrase.addition_setter = add {claimed} to the claimed of {this}
+AmountField.claimed#phrase.navigation = {claimed} of {this}
+AmountField.claimed#phrase.subtraction_setter = subtract {claimed} from the claimed of {this}
+AmountField.code#phrase.action = set the code of {this} to {code}
+AmountField.code#phrase.clearer = clear the code of {this}
+AmountField.code#phrase.navigation = {code} of {this}
+AmountField.computed#phrase.action = set the computed of {this} to {computed}
+AmountField.computed#phrase.addition_setter = add {computed} to the computed of {this}
+AmountField.computed#phrase.navigation = {computed} of {this}
+AmountField.computed#phrase.subtraction_setter = subtract {computed} from the computed of {this}
+
+# CissCodeId
+CissCodeId#concept.label = Ciss Code Id
+CissCodeId.c018#instance.label = C018
+CissCodeId.c045#instance.label = C045
+CissCodeId.c062#instance.label = C062
+CissCodeId.newEnumValue#instance.label = new enum value
+CissCodeId.p001#instance.label = P001
+
+# Exception
+Exception#concept.documentation = 
+Exception#concept.label = Exception
+Exception.Exception(java.lang.String,java.lang.String)#phrase.navigation = a new {Exception} where {0, code} {1, rule name}
+Exception.code#phrase.action = set the code of {this} to {code}
+Exception.code#phrase.navigation = {code} of {this}
+Exception.ruleName#phrase.action = set the rule name of {this} to {rule name}
+Exception.ruleName#phrase.navigation = {rule name} of {this}
+
+# Globals
+Globals#concept.label = Globals
+Globals.Globals(SwitchIndicatorValue)#phrase.navigation = a new {Globals} where {0, NY_TX_ADJ_IND}
+Globals.NY_TX_ADJ_IND#phrase.action = set the NY_TX_ADJ_IND of {this} to {NY_TX_ADJ_IND}
+Globals.NY_TX_ADJ_IND#phrase.clearer = clear the NY_TX_ADJ_IND of {this}
+Globals.NY_TX_ADJ_IND#phrase.navigation = {NY_TX_ADJ_IND} of {this}
+
+# IT$201
+IT$201#concept.label = IT-201
+IT$201.FEDADJ_AMT#phrase.action = set the FEDADJ_AMT of {this} to {FEDADJ_AMT}
+IT$201.FEDADJ_AMT#phrase.clearer = clear the FEDADJ_AMT of {this}
+IT$201.FEDADJ_AMT#phrase.navigation = {FEDADJ_AMT} of {this}
+IT$201.FEDAGI_AMT#phrase.action = set the FEDAGI_AMT of {this} to {FEDAGI_AMT}
+IT$201.FEDAGI_AMT#phrase.clearer = clear the FEDAGI_AMT of {this}
+IT$201.FEDAGI_AMT#phrase.navigation = {FEDAGI_AMT} of {this}
+IT$201.FEDAGI_RCOMP_AMT#phrase.action = set the FEDAGI_RCOMP_AMT of {this} to {FEDAGI_RCOMP_AMT}
+IT$201.FEDAGI_RCOMP_AMT#phrase.clearer = clear the FEDAGI_RCOMP_AMT of {this}
+IT$201.FEDAGI_RCOMP_AMT#phrase.navigation = {FEDAGI_RCOMP_AMT} of {this}
+IT$201.FS_CD#phrase.action = set the FS_CD of {this} to {FS_CD}
+IT$201.FS_CD#phrase.clearer = clear the FS_CD of {this}
+IT$201.FS_CD#phrase.navigation = {FS_CD} of {this}
+IT$201.IT$201(AmountField,AmountField,AmountField,IndicatorType15Field,AmountField,IndicatorType03Field,AmountField,CissCodeId)#phrase.navigation = a new {IT-201} where {0, FEDADJ_AMT} {1, FEDAGI_AMT} {2, FEDAGI_RCOMP_AMT} {3, FS_CD} {4, SALE_USE_AMT} {5, STD_ITZ_IND} {6, TXBL_INC_AMT} {7, Ciss Code}
+IT$201.SALE_USE_AMT#phrase.action = set the SALE_USE_AMT of {this} to {SALE_USE_AMT}
+IT$201.SALE_USE_AMT#phrase.clearer = clear the SALE_USE_AMT of {this}
+IT$201.SALE_USE_AMT#phrase.navigation = {SALE_USE_AMT} of {this}
+IT$201.STD_ITZ_IND#phrase.action = set the STD_ITZ_IND of {this} to {STD_ITZ_IND}
+IT$201.STD_ITZ_IND#phrase.clearer = clear the STD_ITZ_IND of {this}
+IT$201.STD_ITZ_IND#phrase.navigation = {STD_ITZ_IND} of {this}
+IT$201.TXBL_INC_AMT#phrase.action = set the TXBL_INC_AMT of {this} to {TXBL_INC_AMT}
+IT$201.TXBL_INC_AMT#phrase.clearer = clear the TXBL_INC_AMT of {this}
+IT$201.TXBL_INC_AMT#phrase.navigation = {TXBL_INC_AMT} of {this}
+IT$201.cissCode#phrase.action = set the Ciss Code of {this} to {Ciss Code}
+IT$201.cissCode#phrase.clearer = clear the Ciss Code of {this}
+IT$201.cissCode#phrase.navigation = {Ciss Code} of {this}
+
+# IT$214
+IT$214#concept.label = IT-214
+IT$214.FEDAGI_RCOMP_AMT#phrase.action = set the FEDAGI_RCOMP_AMT of {this} to {FEDAGI_RCOMP_AMT}
+IT$214.FEDAGI_RCOMP_AMT#phrase.clearer = clear the FEDAGI_RCOMP_AMT of {this}
+IT$214.FEDAGI_RCOMP_AMT#phrase.navigation = {FEDAGI_RCOMP_AMT} of {this}
+IT$214.IT$214(AmountField,SwitchIndicatorValue,double,double,double,CissCodeId,Globals,AmountField,AmountField,AmountField,AmountField,IndicatorType03Field,AmountField,AmountField,AdjustedReasonCodeId)#phrase.navigation = a new {IT-214} where {0, FEDAGI_RCOMP_AMT} {1, TEMP_CR_DENIED_IND} {2, TEMP_FAGI} {3, TEMP_LINE18} {4, TEMP_LINE30} {5, Ciss Code} {6, globals} {7, R_CR_LMT_AMT} {8, R_GRSS_INC_R_AMT} {9, R_RL_PROP_CR_AMT} {10, R_RL_PROP_TX_AMT} {11, R_RSDT_IND} {12, R_TX_AVL_CR_AMT} {13, R_TX_EXMPT_AMT} {14, Temp ARC}
+IT$214.TEMP_CR_DENIED_IND#phrase.action = set the TEMP_CR_DENIED_IND of {this} to {TEMP_CR_DENIED_IND}
+IT$214.TEMP_CR_DENIED_IND#phrase.clearer = clear the TEMP_CR_DENIED_IND of {this}
+IT$214.TEMP_CR_DENIED_IND#phrase.navigation = {TEMP_CR_DENIED_IND} of {this}
+IT$214.TEMP_FAGI#phrase.action = set the TEMP_FAGI of {this} to {TEMP_FAGI}
+IT$214.TEMP_FAGI#phrase.addition_setter = add {TEMP_FAGI} to the TEMP_FAGI of {this}
+IT$214.TEMP_FAGI#phrase.navigation = {TEMP_FAGI} of {this}
+IT$214.TEMP_FAGI#phrase.subtraction_setter = subtract {TEMP_FAGI} from the TEMP_FAGI of {this}
+IT$214.TEMP_LINE18#phrase.action = set the TEMP_LINE18 of {this} to {TEMP_LINE18}
+IT$214.TEMP_LINE18#phrase.addition_setter = add {TEMP_LINE18} to the TEMP_LINE18 of {this}
+IT$214.TEMP_LINE18#phrase.navigation = {TEMP_LINE18} of {this}
+IT$214.TEMP_LINE18#phrase.subtraction_setter = subtract {TEMP_LINE18} from the TEMP_LINE18 of {this}
+IT$214.TEMP_LINE30#phrase.action = set the TEMP_LINE30 of {this} to {TEMP_LINE30}
+IT$214.TEMP_LINE30#phrase.addition_setter = add {TEMP_LINE30} to the TEMP_LINE30 of {this}
+IT$214.TEMP_LINE30#phrase.navigation = {TEMP_LINE30} of {this}
+IT$214.TEMP_LINE30#phrase.subtraction_setter = subtract {TEMP_LINE30} from the TEMP_LINE30 of {this}
+IT$214.cissCode#phrase.action = set the Ciss Code of {this} to {Ciss Code}
+IT$214.cissCode#phrase.clearer = clear the Ciss Code of {this}
+IT$214.cissCode#phrase.navigation = {Ciss Code} of {this}
+IT$214.globals#phrase.action = set the globals of {this} to {globals}
+IT$214.globals#phrase.clearer = clear the globals of {this}
+IT$214.globals#phrase.navigation = {globals} of {this}
+IT$214.r_CR_LMT_AMT#phrase.action = set the R_CR_LMT_AMT of {this} to {R_CR_LMT_AMT}
+IT$214.r_CR_LMT_AMT#phrase.clearer = clear the R_CR_LMT_AMT of {this}
+IT$214.r_CR_LMT_AMT#phrase.navigation = {R_CR_LMT_AMT} of {this}
+IT$214.r_GRSS_INC_R_AMT#phrase.action = set the R_GRSS_INC_R_AMT of {this} to {R_GRSS_INC_R_AMT}
+IT$214.r_GRSS_INC_R_AMT#phrase.clearer = clear the R_GRSS_INC_R_AMT of {this}
+IT$214.r_GRSS_INC_R_AMT#phrase.navigation = {R_GRSS_INC_R_AMT} of {this}
+IT$214.r_RL_PROP_CR_AMT#phrase.action = set the R_RL_PROP_CR_AMT of {this} to {R_RL_PROP_CR_AMT}
+IT$214.r_RL_PROP_CR_AMT#phrase.clearer = clear the R_RL_PROP_CR_AMT of {this}
+IT$214.r_RL_PROP_CR_AMT#phrase.navigation = {R_RL_PROP_CR_AMT} of {this}
+IT$214.r_RL_PROP_TX_AMT#phrase.action = set the R_RL_PROP_TX_AMT of {this} to {R_RL_PROP_TX_AMT}
+IT$214.r_RL_PROP_TX_AMT#phrase.clearer = clear the R_RL_PROP_TX_AMT of {this}
+IT$214.r_RL_PROP_TX_AMT#phrase.navigation = {R_RL_PROP_TX_AMT} of {this}
+IT$214.r_RSDT_IND#phrase.action = set the R_RSDT_IND of {this} to {R_RSDT_IND}
+IT$214.r_RSDT_IND#phrase.clearer = clear the R_RSDT_IND of {this}
+IT$214.r_RSDT_IND#phrase.navigation = {R_RSDT_IND} of {this}
+IT$214.r_TX_AVL_CR_AMT#phrase.action = set the R_TX_AVL_CR_AMT of {this} to {R_TX_AVL_CR_AMT}
+IT$214.r_TX_AVL_CR_AMT#phrase.clearer = clear the R_TX_AVL_CR_AMT of {this}
+IT$214.r_TX_AVL_CR_AMT#phrase.navigation = {R_TX_AVL_CR_AMT} of {this}
+IT$214.r_TX_EXMPT_AMT#phrase.action = set the R_TX_EXMPT_AMT of {this} to {R_TX_EXMPT_AMT}
+IT$214.r_TX_EXMPT_AMT#phrase.clearer = clear the R_TX_EXMPT_AMT of {this}
+IT$214.r_TX_EXMPT_AMT#phrase.navigation = {R_TX_EXMPT_AMT} of {this}
+IT$214.tempARC#phrase.action = set the Temp ARC of {this} to {Temp ARC}
+IT$214.tempARC#phrase.clearer = clear the Temp ARC of {this}
+IT$214.tempARC#phrase.navigation = {Temp ARC} of {this}
+
+# IT$229
+IT$229#concept.label = IT-229
+IT$229.IT$229(java.util.List,AmountField)#phrase.navigation = a new {IT-229} where {0, QRPT_ROW} {1, RPTR_QRPT_PD_AMT}
+IT$229.QRPT_ROWs#phrase.action = set the QRPT_ROWs of {this} to {QRPT_ROW}
+IT$229.QRPT_ROWs#phrase.navigation = {QRPT_ROW} of {this}
+IT$229.RPTR_QRPT_PD_AMT#phrase.action = set the RPTR_QRPT_PD_AMT of {this} to {RPTR_QRPT_PD_AMT}
+IT$229.RPTR_QRPT_PD_AMT#phrase.clearer = clear the RPTR_QRPT_PD_AMT of {this}
+IT$229.RPTR_QRPT_PD_AMT#phrase.navigation = {RPTR_QRPT_PD_AMT} of {this}
+IT$229.addTo_QRPT_ROWs(QRPTRow)#phrase.action = add {0} to the QRPT_ROWs of {this}
+IT$229.clear_QRPT_ROWs()#phrase.action = clear the QRPT_ROWs of {this}
+IT$229.removeFrom_QRPT_ROWs(QRPTRow)#phrase.action = remove {0} from the QRPT_ROWs of {this}
+
+# IndicatorType03Field
+IndicatorType03Field#concept.label = Indicator Type 03 Field
+IndicatorType03Field.IndicatorType03Field(IndicatorType03Value,IndicatorType03Value)#phrase.navigation = a new {Indicator Type 03 Field} where {0, claimed} {1, computed}
+IndicatorType03Field.claimed#phrase.action = set the claimed of {this} to {claimed}
+IndicatorType03Field.claimed#phrase.clearer = clear the claimed of {this}
+IndicatorType03Field.claimed#phrase.navigation = {claimed} of {this}
+IndicatorType03Field.computed#phrase.action = set the computed of {this} to {computed}
+IndicatorType03Field.computed#phrase.clearer = clear the computed of {this}
+IndicatorType03Field.computed#phrase.navigation = {computed} of {this}
+
+# IndicatorType03Value
+IndicatorType03Value#concept.label = Indicator Type 03 Value
+IndicatorType03Value.$#instance.label = Standard(1)
+IndicatorType03Value.$1#instance.label = Itemized(2)
+
+# IndicatorType13Field
+IndicatorType13Field#concept.label = Indicator Type 13 Field
+IndicatorType13Field.IndicatorType13Field(IndicatorType13Value,IndicatorType13Value)#phrase.navigation = a new {Indicator Type 13 Field} where {0, claimed} {1, computed}
+IndicatorType13Field.claimed#phrase.action = set the claimed of {this} to {claimed}
+IndicatorType13Field.claimed#phrase.clearer = clear the claimed of {this}
+IndicatorType13Field.claimed#phrase.navigation = {claimed} of {this}
+IndicatorType13Field.computed#phrase.action = set the computed of {this} to {computed}
+IndicatorType13Field.computed#phrase.clearer = clear the computed of {this}
+IndicatorType13Field.computed#phrase.navigation = {computed} of {this}
+
+# IndicatorType13Value
+IndicatorType13Value#concept.label = Indicator Type 13 Value
+IndicatorType13Value.$#instance.label = Part-Year Liable (3)
+IndicatorType13Value.$1#instance.label = Full-Year Liable (2)
+IndicatorType13Value.$2#instance.label = Not Liable (1)
+
+# IndicatorType15Field
+IndicatorType15Field#concept.label = Indicator Type 15 Field
+IndicatorType15Field.IndicatorType15Field(IndicatorType15Value,IndicatorType15Value)#phrase.navigation = a new {Indicator Type 15 Field} where {0, claimed} {1, computed}
+IndicatorType15Field.claimed#phrase.action = set the claimed of {this} to {claimed}
+IndicatorType15Field.claimed#phrase.clearer = clear the claimed of {this}
+IndicatorType15Field.claimed#phrase.navigation = {claimed} of {this}
+IndicatorType15Field.computed#phrase.action = set the computed of {this} to {computed}
+IndicatorType15Field.computed#phrase.clearer = clear the computed of {this}
+IndicatorType15Field.computed#phrase.navigation = {computed} of {this}
+
+# IndicatorType15Value
+IndicatorType15Value#concept.label = Indicator Type 15 Value
+IndicatorType15Value.$#instance.label = Single(1)
+IndicatorType15Value.$1#instance.label = Married Filing Joint(2)
+IndicatorType15Value.$2#instance.label = Married Filing Separate(3)
+
+# PITReturn
+PITReturn#concept.label = PIT Return
+PITReturn.IT201#phrase.action = set the IT201 of {this} to {IT201}
+PITReturn.IT201#phrase.clearer = clear the IT201 of {this}
+PITReturn.IT201#phrase.navigation = {IT201} of {this}
+PITReturn.IT214#phrase.action = set the IT214 of {this} to {IT214}
+PITReturn.IT214#phrase.clearer = clear the IT214 of {this}
+PITReturn.IT214#phrase.navigation = {IT214} of {this}
+PITReturn.IT229#phrase.action = set the IT229 of {this} to {IT229}
+PITReturn.IT229#phrase.clearer = clear the IT229 of {this}
+PITReturn.IT229#phrase.navigation = {IT229} of {this}
+PITReturn.PITReturn(IT$201,IT$214,IT$229,java.util.List,ReturnHeader)#phrase.navigation = a new {PIT Return} where {0, IT201} {1, IT214} {2, IT229} {3, exception} {4, rtnHeader}
+PITReturn.addTo_exceptions(Exception)#phrase.action = add {0} to the exceptions of {this}
+PITReturn.clear_exceptions()#phrase.action = clear the exceptions of {this}
+PITReturn.exceptions#phrase.action = set the exceptions of {this} to {exception}
+PITReturn.exceptions#phrase.navigation = {exception} of {this}
+PITReturn.removeFrom_exceptions(Exception)#phrase.action = remove {0} from the exceptions of {this}
+PITReturn.rtnHeader#phrase.action = set the rtnHeader of {this} to {rtnHeader}
+PITReturn.rtnHeader#phrase.clearer = clear the rtnHeader of {this}
+PITReturn.rtnHeader#phrase.navigation = {rtnHeader} of {this}
+
+# QRPTRow
+QRPTRow#concept.label = QRPT Row
+QRPTRow.ALLOC_PCT#phrase.action = set the ALLOC_PCT of {this} to {ALLOC_PCT}
+QRPTRow.ALLOC_PCT#phrase.addition_setter = add {ALLOC_PCT} to the ALLOC_PCT of {this}
+QRPTRow.ALLOC_PCT#phrase.navigation = {ALLOC_PCT} of {this}
+QRPTRow.ALLOC_PCT#phrase.subtraction_setter = subtract {ALLOC_PCT} from the ALLOC_PCT of {this}
+QRPTRow.PI_PD_RES_AMT#phrase.action = set the PI_PD_RES_AMT of {this} to {PI_PD_RES_AMT}
+QRPTRow.PI_PD_RES_AMT#phrase.addition_setter = add {PI_PD_RES_AMT} to the PI_PD_RES_AMT of {this}
+QRPTRow.PI_PD_RES_AMT#phrase.navigation = {PI_PD_RES_AMT} of {this}
+QRPTRow.PI_PD_RES_AMT#phrase.subtraction_setter = subtract {PI_PD_RES_AMT} from the PI_PD_RES_AMT of {this}
+QRPTRow.QRPTRow(double,double,double,double)#phrase.navigation = a new {QRPT Row} where {0, ALLOC_PCT} {1, PI_PD_RES_AMT} {2, RP_TX_PD_AMT} {3, STAR_CR_SCH_TX_AMT}
+QRPTRow.RP_TX_PD_AMT#phrase.action = set the RP_TX_PD_AMT of {this} to {RP_TX_PD_AMT}
+QRPTRow.RP_TX_PD_AMT#phrase.addition_setter = add {RP_TX_PD_AMT} to the RP_TX_PD_AMT of {this}
+QRPTRow.RP_TX_PD_AMT#phrase.navigation = {RP_TX_PD_AMT} of {this}
+QRPTRow.RP_TX_PD_AMT#phrase.subtraction_setter = subtract {RP_TX_PD_AMT} from the RP_TX_PD_AMT of {this}
+QRPTRow.STAR_CR_SCH_TX_AMT#phrase.action = set the STAR_CR_SCH_TX_AMT of {this} to {STAR_CR_SCH_TX_AMT}
+QRPTRow.STAR_CR_SCH_TX_AMT#phrase.addition_setter = add {STAR_CR_SCH_TX_AMT} to the STAR_CR_SCH_TX_AMT of {this}
+QRPTRow.STAR_CR_SCH_TX_AMT#phrase.navigation = {STAR_CR_SCH_TX_AMT} of {this}
+QRPTRow.STAR_CR_SCH_TX_AMT#phrase.subtraction_setter = subtract {STAR_CR_SCH_TX_AMT} from the STAR_CR_SCH_TX_AMT of {this}
+
+# ReturnHeader
+ReturnHeader#concept.label = Return Header
+ReturnHeader.NYC_LIAB_IND#phrase.action = set the NYC_LIAB_IND of {this} to {NYC_LIAB_IND}
+ReturnHeader.NYC_LIAB_IND#phrase.clearer = clear the NYC_LIAB_IND of {this}
+ReturnHeader.NYC_LIAB_IND#phrase.navigation = {NYC_LIAB_IND} of {this}
+ReturnHeader.ReturnHeader(IndicatorType13Field)#phrase.navigation = a new {Return Header} where {0, NYC_LIAB_IND}
+
+# Scratchpad
+Scratchpad#concept.label = Scratchpad
+Scratchpad.IT201_CISS_FAGI#phrase.action = set the IT201_CISS_FAGI of {this} to {IT201_CISS_FAGI}
+Scratchpad.IT201_CISS_FAGI#phrase.clearer = clear the IT201_CISS_FAGI of {this}
+Scratchpad.IT201_CISS_FAGI#phrase.navigation = {IT201_CISS_FAGI} of {this}
+Scratchpad.IT201_DTF_AMENDED_IND#phrase.action = set the IT201_DTF_AMENDED_IND of {this} to {IT201_DTF_AMENDED_IND}
+Scratchpad.IT201_DTF_AMENDED_IND#phrase.clearer = clear the IT201_DTF_AMENDED_IND of {this}
+Scratchpad.IT201_DTF_AMENDED_IND#phrase.navigation = {IT201_DTF_AMENDED_IND} of {this}
+Scratchpad.IT201_STND_DED_AMT#phrase.action = set the IT201_STND_DED_AMT of {this} to {IT201_STND_DED_AMT}
+Scratchpad.IT201_STND_DED_AMT#phrase.addition_setter = add {IT201_STND_DED_AMT} to the IT201_STND_DED_AMT of {this}
+Scratchpad.IT201_STND_DED_AMT#phrase.navigation = {IT201_STND_DED_AMT} of {this}
+Scratchpad.IT201_STND_DED_AMT#phrase.subtraction_setter = subtract {IT201_STND_DED_AMT} from the IT201_STND_DED_AMT of {this}
+Scratchpad.IT201_TOT_NYS_TAX#phrase.action = set the IT201_TOT_NYS_TAX of {this} to {IT201_TOT_NYS_TAX}
+Scratchpad.IT201_TOT_NYS_TAX#phrase.addition_setter = add {IT201_TOT_NYS_TAX} to the IT201_TOT_NYS_TAX of {this}
+Scratchpad.IT201_TOT_NYS_TAX#phrase.navigation = {IT201_TOT_NYS_TAX} of {this}
+Scratchpad.IT201_TOT_NYS_TAX#phrase.subtraction_setter = subtract {IT201_TOT_NYS_TAX} from the IT201_TOT_NYS_TAX of {this}
+Scratchpad.Scratchpad(SwitchIndicatorValue,SwitchIndicatorValue,double,double)#phrase.navigation = a new {Scratchpad} where {0, IT201_CISS_FAGI} {1, IT201_DTF_AMENDED_IND} {2, IT201_STND_DED_AMT} {3, IT201_TOT_NYS_TAX}
+
+# SwitchIndicatorValue
+SwitchIndicatorValue#concept.label = Switch Indicator Value
+SwitchIndicatorValue.absent#instance.label = Absent
+SwitchIndicatorValue.present#instance.label = Present
