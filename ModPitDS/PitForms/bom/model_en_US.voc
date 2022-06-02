@@ -40,7 +40,7 @@ Exception.ruleName#phrase.navigation = {rule name} of {this}
 
 # Globals
 Globals#concept.label = Globals
-Globals.Globals(SwitchIndicatorValue)#phrase.navigation = a new {Globals} where {0, NY_TX_ADJ_IND}
+Globals.Globals(IndicatorType03Value)#phrase.navigation = a new {Globals} where {0, NY_TX_ADJ_IND}
 Globals.NY_TX_ADJ_IND#phrase.action = set the NY_TX_ADJ_IND of {this} to {NY_TX_ADJ_IND}
 Globals.NY_TX_ADJ_IND#phrase.clearer = clear the NY_TX_ADJ_IND of {this}
 Globals.NY_TX_ADJ_IND#phrase.navigation = {NY_TX_ADJ_IND} of {this}
@@ -246,3 +246,8 @@ Scratchpad.IT201_TOT_NYS_TAX#phrase.addition_setter = add {IT201_TOT_NYS_TAX} to
 Scratchpad.IT201_TOT_NYS_TAX#phrase.navigation = {IT201_TOT_NYS_TAX} of {this}
 Scratchpad.IT201_TOT_NYS_TAX#phrase.subtraction_setter = subtract {IT201_TOT_NYS_TAX} from the IT201_TOT_NYS_TAX of {this}
 Scratchpad.Scratchpad(SwitchIndicatorValue,SwitchIndicatorValue,double,double)#phrase.navigation = a new {Scratchpad} where {0, IT201_CISS_FAGI} {1, IT201_DTF_AMENDED_IND} {2, IT201_STND_DED_AMT} {3, IT201_TOT_NYS_TAX}
+
+# SwitchIndicatorValue
+SwitchIndicatorValue#concept.label = Switch Indicator Value
+SwitchIndicatorValue.a#instance.label = A
+SwitchIndicatorValue.p#instance.label = P

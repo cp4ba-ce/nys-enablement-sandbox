@@ -98,11 +98,11 @@ public class Globals
         property "com.fasterxml.jackson.annotation.JsonTypeName" "Globals"
         property "de.generated" "true"
 {
-    public SwitchIndicatorValue NY_TX_ADJ_IND
+    public IndicatorType03Value NY_TX_ADJ_IND
                 property "ads.attributeId" "1"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "NY_TX_ADJ_IND"
                 property update "true";
-    public Globals(SwitchIndicatorValue NY_TX_ADJ_IND)
+    public Globals(IndicatorType03Value NY_TX_ADJ_IND)
                 property autoExpand "true"
                 property beanConstructor "true"
                 property groups "BALA"
@@ -518,5 +518,20 @@ public class Scratchpad
                 property prototype "true";
     public Scratchpad()
                 property "dataio.default" "true";
+}
+
+public class SwitchIndicatorValue
+        extends java.lang.Enum
+        property "ads.typeId" "21"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "SwitchIndicatorValue"
+        property "de.generated" "true"
+{
+    domain {static a, static p}
+    public static final readonly SwitchIndicatorValue a
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "A";
+    public static final readonly SwitchIndicatorValue p
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "P";
 }
 
