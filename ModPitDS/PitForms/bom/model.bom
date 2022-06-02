@@ -166,10 +166,6 @@ public class IT$214
                 property "ads.attributeId" "4"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "FEDAGI_RCOMP_AMT"
                 property update "true";
-    public SwitchIndicatorValue TEMP_CR_DENIED_IND
-                property "ads.attributeId" "16"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "TEMP_CR_DENIED_IND"
-                property update "true";
     public double TEMP_FAGI
                 property "ads.attributeId" "6"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "TEMP_FAGI"
@@ -223,7 +219,6 @@ public class IT$214
                 property "com.fasterxml.jackson.annotation.JsonProperty" "TempARC"
                 property update "true";
     public IT$214(AmountField FEDAGI_RCOMP_AMT, 
-        SwitchIndicatorValue TEMP_CR_DENIED_IND, 
         double TEMP_FAGI, 
         double TEMP_LINE18, 
         double TEMP_LINE30, 
@@ -523,20 +518,5 @@ public class Scratchpad
                 property prototype "true";
     public Scratchpad()
                 property "dataio.default" "true";
-}
-
-public class SwitchIndicatorValue
-        extends java.lang.Enum
-        property "ads.typeId" "1"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "SwitchIndicatorValue"
-        property "de.generated" "true"
-{
-    domain {static absent, static present}
-    public static final readonly SwitchIndicatorValue absent
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Absent";
-    public static final readonly SwitchIndicatorValue present
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Present";
 }
 

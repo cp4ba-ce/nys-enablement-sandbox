@@ -78,10 +78,7 @@ IT$214#concept.label = IT-214
 IT$214.FEDAGI_RCOMP_AMT#phrase.action = set the FEDAGI_RCOMP_AMT of {this} to {FEDAGI_RCOMP_AMT}
 IT$214.FEDAGI_RCOMP_AMT#phrase.clearer = clear the FEDAGI_RCOMP_AMT of {this}
 IT$214.FEDAGI_RCOMP_AMT#phrase.navigation = {FEDAGI_RCOMP_AMT} of {this}
-IT$214.IT$214(AmountField,SwitchIndicatorValue,double,double,double,CissCodeId,Globals,AmountField,AmountField,AmountField,AmountField,IndicatorType03Field,AmountField,AmountField,AdjustedReasonCodeId)#phrase.navigation = a new {IT-214} where {0, FEDAGI_RCOMP_AMT} {1, TEMP_CR_DENIED_IND} {2, TEMP_FAGI} {3, TEMP_LINE18} {4, TEMP_LINE30} {5, Ciss Code} {6, globals} {7, R_CR_LMT_AMT} {8, R_GRSS_INC_R_AMT} {9, R_RL_PROP_CR_AMT} {10, R_RL_PROP_TX_AMT} {11, R_RSDT_IND} {12, R_TX_AVL_CR_AMT} {13, R_TX_EXMPT_AMT} {14, Temp ARC}
-IT$214.TEMP_CR_DENIED_IND#phrase.action = set the TEMP_CR_DENIED_IND of {this} to {TEMP_CR_DENIED_IND}
-IT$214.TEMP_CR_DENIED_IND#phrase.clearer = clear the TEMP_CR_DENIED_IND of {this}
-IT$214.TEMP_CR_DENIED_IND#phrase.navigation = {TEMP_CR_DENIED_IND} of {this}
+IT$214.IT$214(AmountField,double,double,double,CissCodeId,Globals,AmountField,AmountField,AmountField,AmountField,IndicatorType03Field,AmountField,AmountField,AdjustedReasonCodeId)#phrase.navigation = a new {IT-214} where {0, FEDAGI_RCOMP_AMT} {1, TEMP_FAGI} {2, TEMP_LINE18} {3, TEMP_LINE30} {4, Ciss Code} {5, globals} {6, R_CR_LMT_AMT} {7, R_GRSS_INC_R_AMT} {8, R_RL_PROP_CR_AMT} {9, R_RL_PROP_TX_AMT} {10, R_RSDT_IND} {11, R_TX_AVL_CR_AMT} {12, R_TX_EXMPT_AMT} {13, Temp ARC}
 IT$214.TEMP_FAGI#phrase.action = set the TEMP_FAGI of {this} to {TEMP_FAGI}
 IT$214.TEMP_FAGI#phrase.addition_setter = add {TEMP_FAGI} to the TEMP_FAGI of {this}
 IT$214.TEMP_FAGI#phrase.navigation = {TEMP_FAGI} of {this}
@@ -249,8 +246,3 @@ Scratchpad.IT201_TOT_NYS_TAX#phrase.addition_setter = add {IT201_TOT_NYS_TAX} to
 Scratchpad.IT201_TOT_NYS_TAX#phrase.navigation = {IT201_TOT_NYS_TAX} of {this}
 Scratchpad.IT201_TOT_NYS_TAX#phrase.subtraction_setter = subtract {IT201_TOT_NYS_TAX} from the IT201_TOT_NYS_TAX of {this}
 Scratchpad.Scratchpad(SwitchIndicatorValue,SwitchIndicatorValue,double,double)#phrase.navigation = a new {Scratchpad} where {0, IT201_CISS_FAGI} {1, IT201_DTF_AMENDED_IND} {2, IT201_STND_DED_AMT} {3, IT201_TOT_NYS_TAX}
-
-# SwitchIndicatorValue
-SwitchIndicatorValue#concept.label = Switch Indicator Value
-SwitchIndicatorValue.absent#instance.label = Absent
-SwitchIndicatorValue.present#instance.label = Present
