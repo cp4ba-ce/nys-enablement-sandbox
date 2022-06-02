@@ -1,11 +1,23 @@
 {
   "inputForm": {
-    "FEDAGI_RCOMP_AMT": {},
+    "FEDAGI_RCOMP_AMT": {
+      "claimed": 1,
+      "codes": [],
+      "value": 1
+    },
     "TEMP_CR_DENIED_IND": "Absent",
     "TEMP_ARC": "A003"
   },
   "IT201": {
-    "globals": {}
+    "globals": {
+      "IT214_COUNTER": 0,
+      "NY_TX_ADJ_IND": "Absent"
+    },
+    "FEDAGI_RCOMP_AMT": {
+      "claimed": 1,
+      "codes": [],
+      "value": 1
+    }
   },
   "referenceData": {}
 }
