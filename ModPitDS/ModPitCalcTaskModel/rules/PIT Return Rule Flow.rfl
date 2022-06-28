@@ -31,7 +31,7 @@ set the exceptions of 'PIT return' to exceptions ;
                         <Binding Language="bal" Name="IT201"><![CDATA[IT201]]></Binding>
                     </InputBindings>
                     <OutputBindings>
-                        <Binding Language="bal" Name="IT214"><![CDATA['IT214 rules']]></Binding>
+                        <Binding Language="bal" Name="IT214"><![CDATA[IT214 ]]></Binding>
                     </OutputBindings>
                 </Invocation>
             </FunctionTask>
