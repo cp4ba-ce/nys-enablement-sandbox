@@ -25,13 +25,14 @@ set the exceptions of 'PIT return' to exceptions ;
 ]]></Actions>
             </ActionTask>
             <FunctionTask Identifier="task_4">
+                <FinalActions Language="bal"><![CDATA[set the IT214 of 'PIT return' to IT214 ; ]]></FinalActions>
                 <Invocation FunctionIdentifier="user6.nys_enablement_sandbox.modpitds.it214rules.IT214_Rules">
                     <InputBindings>
                         <Binding Language="bal" Name="inputForm"><![CDATA[IT214]]></Binding>
                         <Binding Language="bal" Name="IT201"><![CDATA[IT201]]></Binding>
                     </InputBindings>
                     <OutputBindings>
-                        <Binding Language="bal" Name="IT214"><![CDATA[IT214 ]]></Binding>
+                        <Binding Language="bal" Name="IT214"><![CDATA['IT214 rules' ]]></Binding>
                     </OutputBindings>
                 </Invocation>
             </FunctionTask>
