@@ -10,6 +10,8 @@
             <ActionTask Identifier="task_3">
                 <Actions Language="bal"><![CDATA[set IT201 to the IT201 of 'PIT return' ;
 
+set the computed of the FEDADJ_AMT of the IT201 of 'PIT return' to the claimed of the SALE_USE_AMT of the IT201 of 'PIT return' ; 
+
 set IT214 to the IT214 of 'PIT return' ;
 set IT229 to the IT229 of 'PIT return' ;
 
