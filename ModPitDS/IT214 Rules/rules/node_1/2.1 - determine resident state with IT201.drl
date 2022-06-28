@@ -4,10 +4,9 @@
   <uuid>046aea04-98ba-4788-a30c-988068d50e6d</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if 
- IT201 is not null
+ decision is not null and IT201 is not null
 then 
-    set the computed of the R_RSDT_IND of decision to Standard ( 1 ) ; 
-    set the TEMP_FAGI of decision to the computed of the  FEDAGI_RCOMP_AMT of IT201 ;
-    set the computed of the R_CR_LMT_AMT of decision to the computed of the FEDADJ_AMT of IT201 ; 
+ set the computed of the R_CR_LMT_AMT of decision to the computed of the FEDADJ_AMT of IT201 ; 
+
     ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
